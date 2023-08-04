@@ -1,0 +1,5 @@
+(executable
+ (public_name learning_ocaml_dream)
+ (name server)
+ (libraries dream)
+) 
