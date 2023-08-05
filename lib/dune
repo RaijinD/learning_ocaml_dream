@@ -1,0 +1,3 @@
+(library
+ (name learning_ocaml_dream)
+ (libraries tyxml dream lwt))

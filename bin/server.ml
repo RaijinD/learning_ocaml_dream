@@ -1,3 +1,5 @@
 let () =
-  Dream.run (fun _ ->
-    Dream.html "Good morning, The world!")
+  Dream.run
+  @@ Dream.logger
+  @@ Dream.router Router.default_router
+;;
